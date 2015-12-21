@@ -434,8 +434,17 @@ ul.drop-down li {
     right: 0;
 }
 .home-content .home-text {
-    margin-bottom: 30px;
     font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home-content h1{
+    margin-bottom: 10px;
+}
+
+.home-content h2{
+    margin: 0 0 20px 0;
+    font-size: 13px;
     text-transform: uppercase;
 }
 /*-------------------------------------------------*/
