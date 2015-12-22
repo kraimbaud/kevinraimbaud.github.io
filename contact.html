@@ -1,150 +1,65 @@
-<!DOCTYPE html >
-<html lang="en">
-<head>
-  <!-- Meta Tags -->
-  <meta charset="utf-8"/>
-  <meta name="description" content="Phozer-personal and photography template"/>
-  <meta name="keywords" content="responsive, creative, html/css, theme" />
-  <meta name="author" content="harry"/>
+---
+layout: default
+---
 
-  <!-- Site Title-->
-  <title>Phozer</title>
+<div id="content">
+	<div class="inner-content">
+		<div class="portfolio-page">
 
-  <!-- Mobile Specific Metas-->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+			<div class="about-us-section">
+				<div class="text-center">
+					<div class="about-detail">
+						<h3 class="title">Contact</h3>
+						<span class="subtitle">A Lorem ipsum dolor sit amet, consectetur</span>
+						<div class="devider"></div>
 
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis. Sed non leo nisl, ac euismod nisi. Aenean augue dolor, facilisis id fringilla ut, tempus vitae nibh. Nullam nec diam risus. Donec laoreet ultricies rhoncus. Aliquam adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
-	<link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Crete+Round:400,400italic' rel='stylesheet' type='text/css'>
+						<form role="form" name="ajax-form" id="ajax-form" action="php/contact.php" method="post" class="form-main">
+							<div class="col-xs-12 text-left">
+								<div class="row">
+									<!-- Name -->
+									<div class="form-group col-xs-6">
+										<label for="name2">Name</label>
+										<input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
+										<div class="error" id="err-name" style="display: none;">Please enter name</div>
+									</div>
 
+									<!-- Email -->
+									<div class="form-group col-xs-6">
+										<label for="email2">Email</label>
+										<input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
+										<div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div>
+									</div>
+								</div>
 
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">	
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/light-blue.css" media="screen">
-	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
-	
-</head>
-<body>
+								<!-- Message -->
+								<div class="row">
+									<div class="form-group col-xs-12">
+										<label for="message2">Message</label>
+										<textarea class="form-control" id="message2" name="message" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
+										<div class="error" id="err-message" style="display: none;">Please enter message</div>
+									 </div>
+								</div>
 
-	<!-- Container -->
-	<div id="container">
-		<!-- Header
-		================================================== -->
-		<header>
-			<div class="logo-box logo">
-				<h1><a href="">Raimbaud</a></h1>
-				<p>Passionate Web Developer</p>
-			</div>
-
-			<a class="elemadded responsive-link" href="#">Menu</a>
-
-			<div class="menu-box">
-				<ul class="menu">
-					<li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
-					<li><a href="about.html"><i class="fa fa-magic"></i><span>About</span></a></li>
-					<li><a href="work.html"><i class="fa-picture-o fa"></i><span>Works</span></a></li>
-					<li><a href="blog.html"><i class="fa fa-bolt"></i><span>Blog</span></a></li>
-					<li><a class="active" href="contact.html"><i class="fa fa-phone"></i><span>Contact</span></a></li>
-				</ul>
-			</div>
-
-			<!-- Social icon -->
-			<div class="social-box">
-				<ul class="social-icons">
-					<li><a href="#" class="twitter" ><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#" class="linkedin" ><i class="fa fa-linkedin"></i></a></li>
-					<li><a href="#" class="youtube" ><i class="fa fa-youtube"></i></a></li>
-				</ul>
-				<p class="copyright">&#169; 2015 Phozer, All Rights Reserved</p>
-			</div>
-		</header>
-		<!-- End Header -->
-
-		<!-- content 
-		================================================== -->
-		<div id="content">
-			<div class="inner-content">
-				<div class="portfolio-page">
-					
-					<div class="about-us-section">
-					    <div class="text-center">
-					    	<div class="about-detail">
-								<h3 class="title">Contact</h3>
-								<span class="subtitle">A Lorem ipsum dolor sit amet, consectetur</span>
-								<div class="devider"></div>
-
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis metus vitae ligula elementum ut luctus lorem facilisis. Sed non leo nisl, ac euismod nisi. Aenean augue dolor, facilisis id fringilla ut, tempus vitae nibh. Nullam nec diam risus. Donec laoreet ultricies rhoncus. Aliquam adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-								
-								<form role="form" name="ajax-form" id="ajax-form" action="php/contact.php" method="post" class="form-main">
-						            <div class="col-xs-12 text-left">
-						                <div class="row"> 
-						                    <!-- Name -->           
-						                    <div class="form-group col-xs-6">
-							                    <label for="name2">Name</label>
-							                    <input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
-							                    <div class="error" id="err-name" style="display: none;">Please enter name</div>
-						                    </div>
-
-						                    <!-- Email -->
-						                    <div class="form-group col-xs-6">
-							                    <label for="email2">Email</label>
-							                    <input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
-							                    <div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div> 
-						                    </div>
-						                </div>
-
-						                <!-- Message -->
-						                <div class="row">            
-						                    <div class="form-group col-xs-12">
-							                    <label for="message2">Message</label>
-							                    <textarea class="form-control" id="message2" name="message" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
-							                    <div class="error" id="err-message" style="display: none;">Please enter message</div>
-							                 </div>
-						                </div> 
-
-						                <!-- Submit-button -->
-						                <div class="row">            
-						                    <div class="col-xs-12 text-center">
-						                        <div id="ajaxsuccess">E-mail was successfully sent.</div>
-						                        <div class="error" id="err-form" style="display: none;">There was a problem validating the form please check!</div>
-						                        <div class="error" id="err-timedout">The connection to the server timed out!</div>
-						                        <div class="error" id="err-state"></div>
-						                        <button type="submit" class="btn btn-custom" id="send">Submit</button>
-						                    </div>
-						                </div>
-						            </div>  
-						        </form>
-
+								<!-- Submit-button -->
+								<div class="row">
+									<div class="col-xs-12 text-center">
+										<div id="ajaxsuccess">E-mail was successfully sent.</div>
+										<div class="error" id="err-form" style="display: none;">There was a problem validating the form please check!</div>
+										<div class="error" id="err-timedout">The connection to the server timed out!</div>
+										<div class="error" id="err-state"></div>
+										<button type="submit" class="btn btn-custom" id="send">Submit</button>
+									</div>
+								</div>
 							</div>
-					    </div>
-					</div>
+						</form>
 
+					</div>
 				</div>
 			</div>
+
 		</div>
-		<!-- End content -->
-
 	</div>
-	<!-- End Container -->
-
-	<!-- Preloader -->
-	<div class="preloader">
-		<img alt="" src="images/preloader.gif">
-	</div>
-
-	<!-- JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-	<script type="text/javascript" src="js/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.migrate.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.imagesloaded.min.js"></script>
-  	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
-	<script type="text/javascript" src="js/retina-1.1.0.min.js"></script>
-	<script type="text/javascript" src="js/SmoothScroll.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-
-
-</body>
-</html>
+</div>
+<!-- End content -->
