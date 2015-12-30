@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+docker stop $(docker ps)
+docker rm jekyll
+docker-compose build
+docker-compose up -d
+docker exec -ti jekyll bash
