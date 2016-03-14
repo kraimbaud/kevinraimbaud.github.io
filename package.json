@@ -1,0 +1,19 @@
+{
+  "name": "kevinraimbaud.github.io",
+  "version": "1.0.0",
+  "description": "Kevin Raimbaud Portfolio",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinRaimbaud/kevinraimbaud.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinRaimbaud/kevinraimbaud.github.io/issues"
+  },
+  "homepage": "https://github.com/KevinRaimbaud/kevinraimbaud.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
