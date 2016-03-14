@@ -15,5 +15,8 @@
   "homepage": "https://github.com/KevinRaimbaud/kevinraimbaud.github.io#readme",
   "devDependencies": {
     "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.6"
   }
 }

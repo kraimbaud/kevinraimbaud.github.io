@@ -1,8 +1,6 @@
 body{
     background: url('../img/greenland.jpg') center center fixed no-repeat;
     background-size: cover;
-    margin:0;
-    padding:0;
     color: white;
     font-family: HelveticaNeue-Medium,"Helvetica Neue Medium","Helvetica Neue",Helvetica,Arial,sans-serif;
     opacity: 0.8;
@@ -30,6 +28,7 @@ h1, h2{
 .text{
     font-size: 1.5em;
     opacity: 0.7;
+    margin: 30px 0;
 }
 
 button{
@@ -45,4 +44,5 @@ button:hover{
     cursor: pointer;
     opacity: 0.7;
     transition: 1s;
+    color: black;
 }
