@@ -1,15 +1,11 @@
-MakerLabs Web Site
-==================
+# MakerLabs Web Site
 
-The MakerLabs website where you will find blogpost and tutorial. 
+The MakerLabs website where you will find blogpost and tutorial.
 
-Serve for DEV
--------------
+## Serve for DEV
 
     deno task serve
 
-
-Build for PROD
---------------
+## Build for PROD
 
     deno task build
