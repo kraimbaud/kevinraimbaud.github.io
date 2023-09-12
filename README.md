@@ -1,6 +1,6 @@
-# MakerLabs Web Site
+# Kevin Raimbaud
 
-The MakerLabs website where you will find blogpost and tutorial.
+My website for blog post made with Lume
 
 ## Serve for DEV
 
