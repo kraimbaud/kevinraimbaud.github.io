@@ -1,5 +1,7 @@
-# Welcome to MakerLabs
+Kevin Raimbaud
+==============
 
-This is my first page using **Lume,** a static site generator for Deno.
+Web Developer
+-------------
 
-I hope you enjoy it.
+    A passionate web developer in Paris designing awesome dynamic websites
