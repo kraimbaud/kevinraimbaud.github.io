@@ -1,7 +1,5 @@
-Kevin Raimbaud
-==============
+# Kevin Raimbaud
 
-Web Developer
--------------
+## Web Developer
 
     A passionate web developer in Paris designing awesome dynamic websites
